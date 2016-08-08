@@ -13,13 +13,14 @@ Big steps will be
 
 Problem is to be able to handle both formats:
 
+```
 - a
   - b
-    - 1
-    - 2
+    - 1 ...
+    - 2 ...
   - c
 
-- a b 1
-- a b 2
-- a c 
-
+- a b 1 ...
+- a b 2 ...
+- a c ...
+```
