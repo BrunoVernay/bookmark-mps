@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/BookmarkL/BookmarkL.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/BookmarkL/sandbox/BookmarkL.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/TagL/TagL.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/TagL/sandbox/TagL.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/BookmarkS/BookmarkS.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
