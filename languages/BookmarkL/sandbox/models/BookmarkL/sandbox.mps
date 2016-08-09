@@ -4,13 +4,12 @@
   <languages>
     <use id="113efdfb-7246-4842-a4ee-20aa5c1dfe07" name="BookmarkL" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <use id="9e2b22cc-5d51-4263-9d5e-816185697b84" name="TagL" version="0" />
   </languages>
   <imports />
   <registry>
     <language id="113efdfb-7246-4842-a4ee-20aa5c1dfe07" name="BookmarkL">
-      <concept id="3073743806106638726" name="" flags="ng" index="3B8NwM">
-        <child id="3073743806106638729" name="" index="3B8NwX" />
+      <concept id="3073743806106638726" name="BookmarkL.structure.Tag" flags="ng" index="3B8NwM">
+        <child id="3073743806106638729" name="child" index="3B8NwX" />
       </concept>
       <concept id="3522445877112829741" name="BookmarkL.structure.Bookmarks" flags="ng" index="3XeOFL">
         <child id="3522445877112829752" name="bookmarkList" index="3XeOF$" />
