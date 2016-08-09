@@ -6,8 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="mu0q" ref="r:b84b0dc4-bf0a-4c4b-95f3-a31f897994ea(TagL.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -71,7 +70,7 @@
       <property role="IQ2ns" value="3073743806106638731" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="Tag" />
-      <ref role="20lvS9" to="mu0q:2EC8rjdyLA6" resolve="Tag" />
+      <ref role="20lvS9" node="2EC8rjdyLA6" resolve="Tag" />
     </node>
     <node concept="1TJgyi" id="33yftNdQnsJ" role="1TKVEl">
       <property role="IQ2nx" value="3522445877112829743" />
@@ -87,6 +86,22 @@
       <property role="IQ2nx" value="3522445877112829748" />
       <property role="TrG5h" value="Description" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2EC8rjdyLA6">
+    <property role="EcuMT" value="3073743806106638726" />
+    <property role="TrG5h" value="Tag" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2EC8rjdyLA9" role="1TKVEi">
+      <property role="IQ2ns" value="3073743806106638729" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="child" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2EC8rjdyLA6" resolve="Tag" />
+    </node>
+    <node concept="PrWs8" id="2EC8rjdyLA7" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

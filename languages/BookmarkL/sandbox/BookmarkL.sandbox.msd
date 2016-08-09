@@ -11,6 +11,7 @@
   </dependencies>
   <languageVersions>
     <language slang="l:113efdfb-7246-4842-a4ee-20aa5c1dfe07:BookmarkL" version="-1" />
+    <language slang="l:9e2b22cc-5d51-4263-9d5e-816185697b84:TagL" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="1" />
   </languageVersions>
   <dependencyVersions>
