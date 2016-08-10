@@ -4,7 +4,6 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/BookmarkL/BookmarkL.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/BookmarkL/sandbox/BookmarkL.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/BookmarkS/BookmarkS.msd" folder="" />
     </projectModules>
   </component>
 </project>

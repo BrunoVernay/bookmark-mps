@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:100562b9-e2bc-4759-812f-39a9ddf2544f(BookmarkL.sandbox)">
+<model ref="r:007a5494-c7db-4c4f-a526-5125e42f7eb7(BookmarkL.sandbox)">
   <persistence version="9" />
   <languages>
-    <use id="113efdfb-7246-4842-a4ee-20aa5c1dfe07" name="BookmarkL" version="-1" />
+    <use id="71661355-65d0-4eaa-82f3-5e85d5a43d03" name="BookmarkL" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
   </languages>
   <imports />
   <registry>
-    <language id="113efdfb-7246-4842-a4ee-20aa5c1dfe07" name="BookmarkL">
-      <concept id="3073743806106638726" name="BookmarkL.structure.Tag" flags="ng" index="3B8NwM">
-        <child id="3073743806106638729" name="child" index="3B8NwX" />
+    <language id="71661355-65d0-4eaa-82f3-5e85d5a43d03" name="BookmarkL">
+      <concept id="2412018048992786943" name="BookmarkL.structure.Bookmarks" flags="ng" index="3VsCLt">
+        <child id="2412018048992791835" name="bookmarks" index="3VsJyT" />
       </concept>
-      <concept id="3522445877112829741" name="BookmarkL.structure.Bookmarks" flags="ng" index="3XeOFL">
-        <child id="3522445877112829752" name="bookmarkList" index="3XeOF$" />
+      <concept id="2412018048992787432" name="BookmarkL.structure.Tag" flags="ng" index="3VsCTa">
+        <child id="2412018048992787435" name="tags" index="3VsCT9" />
       </concept>
-      <concept id="3522445877112829742" name="BookmarkL.structure.Bookmark" flags="ng" index="3XeOFM">
-        <property id="3522445877112829748" name="Description" index="3XeOFC" />
-        <property id="3522445877112829745" name="Name" index="3XeOFH" />
-        <property id="3522445877112829743" name="URL" index="3XeOFN" />
-        <reference id="3073743806106638731" name="Tag" index="3B8NwZ" />
+      <concept id="2412018048992787437" name="BookmarkL.structure.Bookmark" flags="ng" index="3VsCTf">
+        <property id="2412018048992787494" name="URL" index="3VsCA4" />
+        <property id="2412018048992787544" name="Description" index="3VsCBU" />
+        <reference id="2412018048992787547" name="Tag" index="3VsCBT" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -27,47 +26,47 @@
       </concept>
     </language>
   </registry>
-  <node concept="3XeOFL" id="2EC8rjdwgaI">
+  <node concept="3VsCLt" id="25Tdqbq2WOq">
     <property role="TrG5h" value="MyBookmarks" />
-    <node concept="3XeOFM" id="2EC8rjdwgaJ" role="3XeOF$">
-      <property role="3XeOFH" value="b 1" />
-      <property role="3XeOFN" value="http://whatever/" />
-      <property role="3XeOFC" value="This is just a test URL ok" />
-      <ref role="3B8NwZ" node="7y_zN_qDehT" resolve="t1b1" />
+    <node concept="3VsCTf" id="25Tdqbq2XQs" role="3VsJyT">
+      <property role="TrG5h" value="ArsTech" />
+      <property role="3VsCA4" value="http://arstech.com/..." />
+      <property role="3VsCBU" value="Technical" />
+      <ref role="3VsCBT" node="25Tdqbq2XQb" resolve="t1b" />
     </node>
-    <node concept="3XeOFM" id="2EC8rjdwgaR" role="3XeOF$">
-      <property role="3XeOFH" value="another" />
-      <property role="3XeOFN" value="http://another.com/" />
-      <property role="3XeOFC" value="Well ..." />
-      <ref role="3B8NwZ" node="7y_zN_qDehV" resolve="t1b2" />
+    <node concept="3VsCTf" id="25Tdqbq2XQu" role="3VsJyT">
+      <property role="TrG5h" value="Twitter" />
+      <property role="3VsCA4" value="https://twit.net/" />
+      <property role="3VsCBU" value="Piou Piou" />
+      <ref role="3VsCBT" node="25Tdqbq2XQ9" resolve="t1a" />
     </node>
-    <node concept="3XeOFM" id="2EC8rjdwgaM" role="3XeOF$">
-      <property role="3XeOFH" value="last one" />
-      <property role="3XeOFN" value="https://secure/" />
-      <property role="3XeOFC" value="Finally" />
-      <ref role="3B8NwZ" node="7y_zN_qDehY" resolve="t2" />
+    <node concept="3VsCTf" id="25Tdqbq2XQx" role="3VsJyT">
+      <property role="TrG5h" value="Google" />
+      <property role="3VsCA4" value="https://goog.com/query" />
+      <property role="3VsCBU" value="No evil" />
+      <ref role="3VsCBT" node="25Tdqbq2XQj" resolve="t2" />
     </node>
   </node>
-  <node concept="3B8NwM" id="7y_zN_qDehL">
-    <property role="TrG5h" value="myTag" />
-    <node concept="3B8NwM" id="7y_zN_qDehM" role="3B8NwX">
+  <node concept="3VsCTa" id="25Tdqbq2XQ6">
+    <property role="TrG5h" value="myTags" />
+    <node concept="3VsCTa" id="25Tdqbq2XQ7" role="3VsCT9">
       <property role="TrG5h" value="t1" />
-      <node concept="3B8NwM" id="7y_zN_qDehO" role="3B8NwX">
+      <node concept="3VsCTa" id="25Tdqbq2XQ9" role="3VsCT9">
         <property role="TrG5h" value="t1a" />
       </node>
-      <node concept="3B8NwM" id="7y_zN_qDehQ" role="3B8NwX">
+      <node concept="3VsCTa" id="25Tdqbq2XQb" role="3VsCT9">
         <property role="TrG5h" value="t1b" />
-        <node concept="3B8NwM" id="7y_zN_qDehT" role="3B8NwX">
+        <node concept="3VsCTa" id="25Tdqbq2XQe" role="3VsCT9">
           <property role="TrG5h" value="t1b1" />
         </node>
-        <node concept="3B8NwM" id="7y_zN_qDehV" role="3B8NwX">
+        <node concept="3VsCTa" id="25Tdqbq2XQg" role="3VsCT9">
           <property role="TrG5h" value="t1b2" />
         </node>
       </node>
     </node>
-    <node concept="3B8NwM" id="7y_zN_qDehY" role="3B8NwX">
+    <node concept="3VsCTa" id="25Tdqbq2XQj" role="3VsCT9">
       <property role="TrG5h" value="t2" />
-      <node concept="3B8NwM" id="7y_zN_qDei5" role="3B8NwX">
+      <node concept="3VsCTa" id="25Tdqbq2XQq" role="3VsCT9">
         <property role="TrG5h" value="t2a" />
       </node>
     </node>

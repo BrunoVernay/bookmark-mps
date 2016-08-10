@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:86cf5f7e-1adb-4d24-bdab-aa4787428ffb(BookmarkL.behavior)">
+<model ref="r:be5205a2-f0da-4afd-9cd5-99009838c6ab(BookmarkL.behavior)">
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />

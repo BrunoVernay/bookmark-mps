@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:0c56ec60-199d-4108-b2af-108d56ead14b(BookmarkL.structure)">
+<model ref="r:f42d0c12-c1a3-4d4f-9d82-77dba11269a2(BookmarkL.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
-        <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -26,14 +26,12 @@
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
-        <property id="241647608299431129" name="propertyId" index="IQ2nx" />
         <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
-        <property id="241647608299431140" name="linkId" index="IQ2ns" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -43,64 +41,57 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="33yftNdQnsH">
-    <property role="EcuMT" value="3522445877112829741" />
+  <node concept="1TIwiD" id="25Tdqbq2VBZ">
+    <property role="1pbfSe" value="75173983" />
     <property role="TrG5h" value="Bookmarks" />
     <property role="19KtqR" value="true" />
-    <property role="R4oN_" value="List of bookmarks" />
     <property role="34LRSv" value="bookmarks" />
+    <property role="R4oN_" value="List of bookmarks" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="33yftNdQnsS" role="1TKVEi">
-      <property role="IQ2ns" value="3522445877112829752" />
+    <node concept="1TJgyj" id="25Tdqbq2WOr" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="bookmarks" />
       <property role="20lbJX" value="0..n" />
-      <property role="20kJfa" value="bookmarkList" />
-      <ref role="20lvS9" node="33yftNdQnsI" resolve="Bookmark" />
+      <ref role="20lvS9" node="25Tdqbq2VJH" resolve="Bookmark" />
     </node>
-    <node concept="PrWs8" id="2EC8rjdw426" role="PzmwI">
+    <node concept="PrWs8" id="25Tdqbq2VJA" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
-  <node concept="1TIwiD" id="33yftNdQnsI">
-    <property role="EcuMT" value="3522445877112829742" />
-    <property role="TrG5h" value="Bookmark" />
-    <property role="34LRSv" value="url" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2EC8rjdyLAb" role="1TKVEi">
-      <property role="IQ2ns" value="3073743806106638731" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="Tag" />
-      <ref role="20lvS9" node="2EC8rjdyLA6" resolve="Tag" />
-    </node>
-    <node concept="1TJgyi" id="33yftNdQnsJ" role="1TKVEl">
-      <property role="IQ2nx" value="3522445877112829743" />
-      <property role="TrG5h" value="URL" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="33yftNdQnsL" role="1TKVEl">
-      <property role="IQ2nx" value="3522445877112829745" />
-      <property role="TrG5h" value="Name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="33yftNdQnsO" role="1TKVEl">
-      <property role="IQ2nx" value="3522445877112829748" />
-      <property role="TrG5h" value="Description" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2EC8rjdyLA6">
-    <property role="EcuMT" value="3073743806106638726" />
+  <node concept="1TIwiD" id="25Tdqbq2VJC">
+    <property role="1pbfSe" value="75173494" />
     <property role="TrG5h" value="Tag" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2EC8rjdyLA9" role="1TKVEi">
-      <property role="IQ2ns" value="3073743806106638729" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="child" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="2EC8rjdyLA6" resolve="Tag" />
+    <node concept="PrWs8" id="25Tdqbq2VJD" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="PrWs8" id="2EC8rjdyLA7" role="PzmwI">
+    <node concept="1TJgyj" id="25Tdqbq2VJF" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="tags" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="25Tdqbq2VJC" resolve="Tag" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="25Tdqbq2VJH">
+    <property role="1pbfSe" value="75173489" />
+    <property role="TrG5h" value="Bookmark" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="25Tdqbq2VLr" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="Tag" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="25Tdqbq2VJC" resolve="Tag" />
+    </node>
+    <node concept="1TJgyi" id="25Tdqbq2VKA" role="1TKVEl">
+      <property role="TrG5h" value="URL" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="25Tdqbq2VLo" role="1TKVEl">
+      <property role="TrG5h" value="Description" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="25Tdqbq2VJI" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
