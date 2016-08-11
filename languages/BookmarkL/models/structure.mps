@@ -96,7 +96,7 @@
     <node concept="1TJgyj" id="2EC8rjdyLA9" role="1TKVEi">
       <property role="IQ2ns" value="3073743806106638729" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="child" />
+      <property role="20kJfa" value="tags" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2EC8rjdyLA6" resolve="Tag" />
     </node>
