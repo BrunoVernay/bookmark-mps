@@ -40,3 +40,12 @@ Problem is to be able to handle both formats:
 Import/Export (see Forum's post discussion)
 - Building an "importer"  (See com.dslfoundry.plaintextgen  "Paste Unstructured Text" intention)
 - Custom Persistence https://confluence.jetbrains.com/display/MPSD34/Custom+Persistence+Cookbook
+
+## Notes
+
+Random notes:
+
+- it seemed easier and more stable in the video ...
+- The plainTextGen is nice, would feel even better if upgraded to 3.4
+- The Custom Persistence is how I would it to work.  If only it didn't require to go through a plugin and stuff.
+
