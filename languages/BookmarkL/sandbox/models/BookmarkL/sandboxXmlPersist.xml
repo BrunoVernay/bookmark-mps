@@ -1,0 +1,10 @@
+<sandboxXmlPersist>
+    test 1
+    <noPerfect>but still </noPerfect>
+    OK, then in the file system there is a "real" (denotated) XML file.
+
+Nice. but there is no link to the current model. It is not a capability or aspect added to the current model.
+It is not because an AST has a hierarchical nature that it will automatically be mapped to XML elements!!
+
+One has to define a dedicated custom persistence for each model.
+    </sandboxXmlPersist>
