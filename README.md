@@ -36,6 +36,7 @@ Problem is to be able to handle both formats:
 - Collections Language in MPS https://confluence.jetbrains.com/display/MPSD34/Collections+language#Collectionslanguage-join
 - SModel language in MPS https://confluence.jetbrains.com/display/MPSD34/SModel+language
 - Related post on the MPS Forum https://mps-support.jetbrains.com/hc/en-us/community/posts/207656609-hierarchical-concept-where-to-start
+- Using the Editor is not obvious (especialy the "table"): https://confluence.jetbrains.com/display/MPSD34/Editor+cookbook
 
 Import/Export (see Forum's post discussion)
 - Building an "importer"  (See com.dslfoundry.plaintextgen  "Paste Unstructured Text" intention)
